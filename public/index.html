@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- tailwind -->
+    <link rel="stylesheet" href="../dist/output-min.css" />
+    <title>Nug.</title>
+  </head>
+  <body class="bg-[#F3F3F3]">
+    <!-- navbar start -->
+    <nav
+      class="fixed w-full z-20 top-0 start-0 bg-white border-gray-200 dark:bg-gray-900"
+    >
+      <div
+        class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
+      >
+        <h1
+          class="self-center text-2xl font-extrabold whitespace-nowrap dark:text-white"
+        >
+          Nug.
+        </h1>
+        <button
+          data-collapse-toggle="navbar-default"
+          type="button"
+          class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+          aria-controls="navbar-default"
+          aria-expanded="false"
+        >
+          <span class="sr-only">Open main menu</span>
+          <svg
+            class="w-5 h-5"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 17 14"
+          >
+            <path
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M1 1h15M1 7h15M1 13h15"
+            />
+          </svg>
+        </button>
+        <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+          <ul
+            class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700"
+          >
+            <li>
+              <a
+                href="#work"
+                class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                >Portfolio</a
+              >
+            </li>
+            <li>
+              <a
+                href="#about"
+                class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                >About</a
+              >
+            </li>
+            <li>
+              <a
+                href="#contact"
+                class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar end -->
+
+    <!-- content start -->
+    <div class="container lg:px-36 mt-32 mx-auto" id="about">
+      <div class="flex flex-wrap">
+        <div class="w-full self-center mb-7 px-4 lg:w-1/2">
+          <h1 class="font-bold text-3xl text-slate-900 lg:text-5xl pb-2">
+            Hi, i'm Darmawan.
+          </h1>
+          <p class="font-medium text-xl text-slate-500 lg:text-2xl">
+            UI/UX Design | Frontend Web Developer
+          </p>
+          <p
+            class="pt-4 text-left font-normal text-base text-slate-500 lg:text-2xl lg:pt-8"
+          >
+            Saya seorang lulusan dari Universitas Sriwijaya jurusan Teknik
+            Informatika yang memiliki ketertarikan bekerja sebagai Frontend Web
+            Developer dan juga UI/UX Designer. Saya menguasai dasar dari HTML,
+            CSS, dan Javascript. Menguasai dasar dari framework TailwindCSS.
+            Saya juga menguasai mobile dan web design. Disiplin dan mampu
+            bekerja dengan baik dalam tim. Pernah aktif dalam kegiatan
+            organisasi kampus dan pengalaman mengikuti web develepor intern yang
+            sukses mengembangkan sistem pemberkasan menggunakan Laravel.
+          </p>
+        </div>
+        <div class="w-full self-end px-4 lg:w-1/2 flex justify-center">
+          <img src="./img/Darmawan.png" alt="Darmawan" />
+        </div>
+      </div>
+    </div>
+    <!-- content end -->
+
+    <!-- content 2 start -->
+    <div class="container lg:px-36 mt-12 mb-4 lg:my-24 mx-auto">
+      <div class="flex flex-col self-center px-4 gap-4 w-full">
+        <div class="flex gap-4">
+          <h1 class="w-32 font-bold text-slate-900 lg:text-lg">
+            Main Software
+          </h1>
+          <p class="text-slate-500 font-normal">
+            Figma, Whimmsical, Visual Studio Code
+          </p>
+        </div>
+        <div class="flex gap-4">
+          <h1 class="w-32 font-bold text-slate-900 lg:text-lg">Main Skills</h1>
+          <p class="text-slate-500 font-normal">
+            UI Design, Website Design, Tailwind CSS, Javascript
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- content 2 end -->
+
+    <hr
+      class="container lg:px-36 mt-12 mb-4 mx-auto w-1/2 lg:w-full h-px my-8 bg-slate-950 border-2 border-slate-800 dark:bg-slate-900"
+    />
+
+    <!-- card portfolio -->
+    <div class="container lg:px-36 mt-12 mb-4 lg:my-24 mx-auto" id="work">
+      <h1 class="font-bold text-3xl text-slate-900 lg:text-5xl pb-2 mb-8 px-4">
+        Portfolio
+      </h1>
+      <div class="flex flex-wrap gap-6 px-4" id="portfolio-list"></div>
+    </div>
+    <!-- card portfolio -->
+
+    <hr
+      class="container lg:px-36 mt-12 mb-4 mx-auto w-1/2 lg:w-full h-px my-8 bg-slate-700 border-2 border-slate-700 dark:bg-slate-700"
+    />
+
+    <div class="container lg:px-36 mt-12 mb-24 mx-auto" id="contact">
+      <div class="flex flex-wrap">
+        <div class="w-full self-center mb-7 px-4 lg:w-1/2">
+          <p
+            class="to-slate-900 font-bold text-3xl lg:text-5xl dark:text-gray-400"
+          >
+            I'm very interested in answering your next project
+            <a
+              href="#"
+              class="inline-flex items-center font-medium text-slate-900 dark:text-blue-500 hover:underline"
+            >
+              <svg
+                class="w-6 h-6 ms-2 rtl:rotate-180"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 14 10"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M1 5h12m0 0L9 1m4 4L9 9"
+                />
+              </svg>
+            </a>
+          </p>
+        </div>
+        <div
+          class="w-full self-center px-4 lg:w-1/2 flex flex-col gap-4 items-end"
+        >
+          <h1 class="font-semibold text-xl text-slate-900">
+            abinugroho53@gmail.com
+          </h1>
+
+          <a
+            href="https://drive.google.com/file/d/1AP1el1mGl8yrj-IO1D7bAOcVOq9R-qFl/view?usp=sharing"
+            class="font-medium text-slate-900 underline dark:text-blue-500 hover:underline"
+            target="_blank"
+            >View Resume</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <!-- footer start -->
+    <footer
+      class="w-full p-4 md:px-36 bg-white border-t border-gray-200 shadow md:flex md:items-center md:justify-between md:p-6 dark:bg-gray-800 dark:border-gray-600"
+    >
+      <span
+        class="text-sm font-bold text-gray-500 sm:text-center dark:text-gray-400"
+        >Darmawan Abinugroho ⏤ 2023
+      </span>
+      <ul
+        class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0"
+      >
+        <li>
+          <a
+            href="https://www.linkedin.com/in/darmawanabi/"
+            target="_blank"
+            class="hover:underline me-4 md:me-6"
+            >LinkedIn</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://medium.com/@abinugroho53"
+            target="_blank"
+            class="hover:underline me-4 md:me-6"
+            >Medium</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://dribbble.com/darmawanabi"
+            target="_blank"
+            class="hover:underline me-4 md:me-6"
+            >Dribbble</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.instagram.com/darmawanabi11"
+            target="_blank"
+            class="hover:underline"
+            >Instagram</a
+          >
+        </li>
+      </ul>
+    </footer>
+    <!-- footer end -->
+    <script src="../node_modules/flowbite/dist/flowbite.min.js"></script>
+    <!-- jquery -->
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.js"
+      integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+      crossorigin="anonymous"
+    ></script>
+    <!-- local json -->
+    <script src="./js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "portfolios": [
+    {
+      "judul": "UX Case Study : Last Wish - Bank jago",
+      "deskripsi": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+      "gambar": "card-1.png",
+      "link": "https://medium.com/@abinugroho53/ux-case-study-last-wish-bank-jago-a48fa54a8c05"
+    },
+    {
+      "judul": "UX Case Study : Teyan Apps",
+      "deskripsi": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+      "gambar": "card-2.png",
+      "link": "https://medium.com/@abinugroho53/ux-case-study-teyan-apps-508bb2a7f04f"
+    }
+  ]
+}
